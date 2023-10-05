@@ -1,41 +1,32 @@
-# LearningAngular
+# Personal Exploration - Learning Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
+## How to run
 
-## Development server
+1. Make a new project
+   `ng new my-app`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+2. Run the project
+   `ng serve --open`
 
-## Code scaffolding
+## Useful code/command
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Material icon
+   `ng add @angular/material`
 
-## Build
+` ng generate @angular/material:material-nav --name=administrator/main`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Create new component
+   `ng g c nama_component`
 
-## Running unit tests
+3. Create new module
+   `ng g m nama_module`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+   `ng g c administrator/home`
 
-## Running end-to-end tests
+4. Create new service
+   `ng g s administrator/home/home`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Author
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-## Further help
-
-Material icon
-ng add @angular/material
-
-ng g c component
-ng g m nama_module
-
-ng generate @angular/material:material-nav --name=administrator/main
-
-ng g c administrator/home
-
-ng g s administrator/home/home
+Mohammad Yahya Ibrahim
+yahyaibrahim01@gmail.com
